@@ -1,0 +1,26 @@
+{
+  "default_prefix": "!",
+  "antinuke": {
+    "channel_delete": {"threshold": 2, "window_seconds": 10},
+    "channel_create": {"threshold": 6, "window_seconds": 10},
+    "role_delete": {"threshold": 2, "window_seconds": 10},
+    "role_update": {"threshold": 3, "window_seconds": 10},
+    "webhook_create": {"threshold": 1, "window_seconds": 10},
+    "ban": {"threshold": 3, "window_seconds": 10},
+    "kick": {"threshold": 3, "window_seconds": 10},
+    "punishment": "ban"
+  },
+  "antiraid": {
+    "join_threshold": 10,
+    "window_seconds": 10,
+    "mention_threshold": 15,
+    "action": "lockdown",
+    "lockdown_duration_minutes": 10
+  },
+  "modlog": {
+    "enabled": true
+  },
+  "backup": {
+    "max_snapshots": 5
+  }
+}
